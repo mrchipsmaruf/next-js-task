@@ -32,7 +32,7 @@ export default function Navbar() {
                 onClick={() => signOut(auth)}
                 className="text-red-600 mt-2"
               >
-                Logout
+                LogOut
               </button>
             </div>
           </div>
