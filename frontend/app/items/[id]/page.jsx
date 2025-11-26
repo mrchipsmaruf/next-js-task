@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 async function getItem(id) {
-  const res = await fetch(`https://next-js-task-ox4x.onrender.com/api/products/${id}`, {
+  const res = await fetch(`https://next-js-task-3.onrender.com/api/products/${id}`, {
     cache: "no-cache",
   });
   return res.json();

@@ -23,7 +23,7 @@ export default function AddProductPage() {
       image: image || "https://via.placeholder.com/300?text=New+Product",
     };
 
-    await fetch("https://next-js-task-ox4x.onrender.com/api/products", {
+    await fetch("https://next-js-task-3.onrender.com/api/products", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(newProduct),
