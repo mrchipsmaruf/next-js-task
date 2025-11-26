@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "title": "Wireless Headphones",
+    "shortDesc": "High-quality over-ear headphones",
+    "fullDesc": "Noise-cancelling wireless headphones with 40 hours battery life.",
+    "price": 120,
+    "date": "2025-01-01",
+    "image": "https://via.placeholder.com/300?text=Headphones"
+  },
+  {
+    "id": "2",
+    "title": "Smart Watch",
+    "shortDesc": "Fitness tracking smart watch",
+    "fullDesc": "Tracks heart rate, steps, sleep & supports notifications.",
+    "price": 80,
+    "date": "2025-01-05",
+    "image": "https://via.placeholder.com/300?text=Smart+Watch"
+  },
+  {
+    "id": "3",
+    "title": "Bluetooth Speaker",
+    "shortDesc": "Portable mini speaker",
+    "fullDesc": "Compact Bluetooth speaker with deep bass and 10-hour battery.",
+    "price": 45,
+    "date": "2025-01-10",
+    "image": "https://via.placeholder.com/300?text=Speaker"
+  },
+  {
+    "id": "4",
+    "title": "Gaming Mouse",
+    "shortDesc": "RGB wired gaming mouse",
+    "fullDesc": "Ergonomic design with 6 programmable buttons.",
+    "price": 35,
+    "date": "2025-01-12",
+    "image": "https://via.placeholder.com/300?text=Gaming+Mouse"
+  },
+  {
+    "id": "5",
+    "title": "Laptop Stand",
+    "shortDesc": "Adjustable aluminum stand",
+    "fullDesc": "Supports all laptop sizes and improves airflow.",
+    "price": 25,
+    "date": "2025-01-15",
+    "image": "https://via.placeholder.com/300?text=Laptop+Stand"
+  },
+  {
+    "id": "6",
+    "title": "USB-C Charger",
+    "shortDesc": "Fast charging adapter",
+    "fullDesc": "30W USB-C fast charger compatible with all smartphones.",
+    "price": 18,
+    "date": "2025-01-20",
+    "image": "https://via.placeholder.com/300?text=Charger"
+  }
+]
