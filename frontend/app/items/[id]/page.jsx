@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 async function getItem(id) {
-  const res = await fetch(`http://localhost:5000/api/products/${id}`, {
+  const res = await fetch(`https://next-js-task-ox4x.onrender.com/api/products/${id}`, {
     cache: "no-cache",
   });
   return res.json();
@@ -33,6 +33,7 @@ export default async function ItemPage({ params }) {
         <p className="text-lg font-semibold mb-2">
           Price: <span className="text-blue-600">${item.price}</span>
         </p>
+
         <Link href={`/items`}>
           <button className="px-4 py-2 w-full bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition">
             Back

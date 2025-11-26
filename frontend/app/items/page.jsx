@@ -7,7 +7,7 @@ export default function ItemsPage() {
 
   useEffect(() => {
     async function fetchItems() {
-      const res = await fetch("http://localhost:5000/api/products");
+      const res = await fetch("https://next-js-task-ox4x.onrender.com/api/products");
       const data = await res.json();
       setItems(data);
     }
